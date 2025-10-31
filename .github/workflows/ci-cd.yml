@@ -18,10 +18,10 @@ jobs:
    - name: Ejecutar pruebas
    run: npm test
 
-deploy:
- needs: build
- runs-on: ubuntu-latest
-  steps:
-  - name: Simular despliegue
-    run: echo "��Desplegando aplicación..."
+ deploy:
+  needs: build
+  runs-on: ubuntu-latest
+   steps:
+   - name: Simular despliegue
+     run: echo "��Desplegando aplicación..."
   
